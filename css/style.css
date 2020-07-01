@@ -1,0 +1,148 @@
+body{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.name-highlight{
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 0px;
+  color: hotpink;
+}
+
+.grey-text{
+  color: #424440;
+}
+
+.half-width{
+  float: left;
+  width: 40%;
+  padding: 5%;
+  margin: auto;
+}
+
+.half-width img{
+  width: 100%;
+  height: auto;
+}
+
+.button{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  background-image: linear-gradient(45deg, deeppink, tomato);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header-section{
+  background-image: url("../images/header-bg.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.bio-section{
+  background-image: url("../images/biography-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.latest-work-section{
+  background-image: url("../images/latest-work-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 5%;
+}
+
+.work-title{
+  text-align: center;
+  padding-bottom: 0px;
+}
+.client-title{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.image-gallery::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image-col{
+  width: 30%;
+  padding: 10px;
+}
+
+.hover:hover{
+  box-shadow: 10px 10px 20px darkgrey;
+}
+
+.center{
+  text-align: center;
+}
+div.client-info>p{
+  line-height: 0;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.comment{
+  text-align: center;
+  padding: 0 25%;
+}
+
+.message-sec{
+  text-align: center;
+  width: 70%;
+  padding: 2%;
+  margin: auto;
+  color: white;
+  background-image: linear-gradient(60deg,hotpink,orangered);
+  border-radius: 10px;
+}
+
+.message-padding{
+  padding-bottom: 60px;
+}
+
+.subs-padding{
+  padding-top: 60px;
+}
+
+footer{
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+.subscribe{
+  width: 70%;
+  margin: auto;
+  padding: 25px;
+  background-image: linear-gradient(45deg, #92DD25, #32B840);
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+input{
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+input:focus{
+  width: 300px;
+}
+
+.email{
+  display: inline-block;
+}
